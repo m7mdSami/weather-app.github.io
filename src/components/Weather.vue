@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="form-group">
-            <label for="exampleSelect1">select city</label>
+            <label for="exampleSelect1">select country</label>
             <select class="form-control" v-model="selected" @change="fetchWeather">
                 <option value="Egypt" selected>Egypt</option>
                 <option value="russian">russian</option>
@@ -18,7 +18,7 @@
 
         <div class="col-lg-5">
           <div class="form-group">
-            <label for="exampleSelect1">select country</label>
+            <label for="exampleSelect1">select city</label>
             <select class="form-control" v-model="selected" @change="fetchWeather">
               <option value="city" selected>city</option>
               <option value="cairo">cairo</option>
